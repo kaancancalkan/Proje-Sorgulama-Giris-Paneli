@@ -1,0 +1,33 @@
+  <content >
+         <VBox class="sapUiSmallMargin">
+    	<f:SimpleForm id="SimpleFormDisplay480_12121"
+			editable="false"
+			layout="ResponsiveGridLayout"
+
+			labelSpanXL="8"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="5"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<core:Title text="Proje Durum Sorgulama Giriş Paneli" />
+				<Label text="Bina Kodunu Giriniz" />
+				<Input width="50%"> </Input>
+				 <Label text="Tarih Aralığını Giriniz" />
+				 <DatePicker id="DP01" calendarWeekNumbering="MiddleEastern" class="sapUiSmallMarginBottom" placeholder="Başlangıç" width=""/>			
+				<DatePicker id="DP02" calendarWeekNumbering="MiddleEastern" class="sapUiSmallMarginBottom" placeholder="Bitiş" width=""/>	
+               	<Label text="Deneme"> </Label>
+			</f:content>
+		</f:SimpleForm>
+		
+		
+	</VBox>
+        </content>
